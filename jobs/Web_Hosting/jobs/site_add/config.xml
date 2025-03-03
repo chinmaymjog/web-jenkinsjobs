@@ -96,7 +96,7 @@ return[&apos;NA&apos;]
     exit 1
 fi
 
-# Transform site_url for preprod environment
+# Transform site_url for Preprod environment
 if [ &quot;$env&quot; = &quot;preprod&quot; ]; then
     site_url=$(echo &quot;${site_url}&quot; | tr &apos;.&apos; &apos;-&apos;).ilearndevops.in
 fi
